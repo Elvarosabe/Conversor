@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.mycalculator.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/LayoutStyle">
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:textSize="35sp"
+         android:textColor="@color/black"
+         android:id="@+id/eNumero"
+          />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutStyle">
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b7"
+            android:text="7"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b8"
+            android:text="8"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b9"
+            android:text="9"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bmas"
+            android:text="+"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutStyle">
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b4"
+            android:text="4"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b5"
+            android:text="5"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b6"
+            android:text="6"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bmenos"
+            android:text="-"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutStyle">
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b1"
+            android:text="1"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b2"
+            android:text="2"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b3"
+            android:text="3"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bpor"
+            android:text="*"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutStyle">
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bpunto"
+            android:text="."/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/b0"
+            android:text="0"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/blimpiar"
+            android:text="C"/>
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bdiv"
+            android:text="/"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LayoutStyle">
+        <Button style="@style/ButtonStyle"
+            android:id="@+id/bigual"
+            android:text="="
+            android:background="@color/darkturquoise"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

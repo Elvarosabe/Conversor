@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.misnotas.MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notas Programacion Disp Moviles"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="7dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:gravity="left"
+            android:text="Practicas:"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/practica"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:hint="Ingrese su Nota"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="21sp"
+            android:gravity="left"
+            android:text="Avance I :"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/avance1"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:hint="Ingrese su Nota"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="21sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Avance II:"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/avance2"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:hint="Ingrese su Nota"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="21sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Avance III:"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/avance3"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:hint="Ingrese su Nota"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="21sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="App Final:"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/pfinal"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:hint="Ingrese su Nota"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/total"
+            android:gravity="left"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/promedio"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Calcular"/>
+
+
+    </LinearLayout>
+</LinearLayout>
