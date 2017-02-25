@@ -1,1 +1,1 @@
-include ':app', ':mycalculator', ':geometapp', ':misnotas'
+include ':app', ':mycalculator', ':geometapp', ':misnotas', ':resistenciapp'

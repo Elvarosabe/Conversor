@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Resistenciapp</string>
+    <string name="color">Color</string>
+    <string name="negro">negro</string>
+    <string name="cero">0</string>
+
+    <string-array name="opciones">
+        <item>Negro</item>
+        <item>Café</item>
+        <item>Rojo</item>
+        <item>Naranja </item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Gris</item>
+        <item>Blanco</item>
+
+    </string-array>
+
+    <string-array name="Toler">
+        <item>gris</item>
+        <item>dorado</item>
+    </string-array>
+
+
+
+</resources>

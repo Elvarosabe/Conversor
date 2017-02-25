@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     EditText numero; //Instancia para el Edit_text donde se ven los valores
     Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b0,bmas,bpor,bdiv,bigual,bmenos,bpunto,blimpiar;
     String Acum=""; //Acumulador
-    int flag1=0,flag2=0,flag3=0,flag4=0;
+    int flag1=0,flag2=0,flag3=0,flag4=0,flagp=0;
 
     Double Tempo,op1=0.0,op2=0.0;
 
@@ -83,11 +83,23 @@ public class MainActivity extends AppCompatActivity {
                 numero.setText(Acum);
                 break;
 
+            case R.id.bpunto:
+                if(flagp==0)
+                {
+                    Acum= Acum +".";
+                    numero.setText(Acum);
+                    flagp=1;
+
+                }
+
+                break;
+
             case R.id.bmas:
                 op2= Double.parseDouble(Acum); //Conversion de la vble que acumula
                 op1 += op2; //Acumulador para posteriores sumas
                 Acum="";
                 flag1=1;
+                flagp=0;
                 numero.setText("");
 
                 break;
@@ -98,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
                 op1 += op2;
                 Acum="";
                 flag2=1;
+                flagp=0;
                 numero.setText("");
 
 
@@ -110,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
                 op1 += op2; //Acumulador para posteriores capturas
                 Acum=""; //vacio el encargado de la concatenacion
                 flag3=1;
+                flagp=0;
                 numero.setText("");
 
                 break;
@@ -120,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
                 op1 += op2; //Acumulador para posteriores capturas
                 Acum=""; //vacio el encargado de la concatenacion
                 flag4=1;
+                flagp=0;
                 numero.setText("");
 
                 break;
@@ -128,6 +143,8 @@ public class MainActivity extends AppCompatActivity {
             {
                 Acum="";
                 numero.setText("");
+                flagp=0;
+
                 op1=0.0;
                 break;
             }
@@ -135,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.bigual:
             {
+                flagp=0;
                 if (flag1 == 1) {
                     op2 = Double.parseDouble(Acum);
                     Tempo = op1 + op2; // Suma de las variables ingresadas
@@ -153,6 +171,7 @@ public class MainActivity extends AppCompatActivity {
                         numero.setText(Tempo.toString());
                         Acum = "0";
                         }
+
                     else if(flag3==1)
                         {
                             op2 = Double.parseDouble(Acum);

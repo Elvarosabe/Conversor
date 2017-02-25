@@ -61,6 +61,10 @@ public class MainActivity extends AppCompatActivity {
                 mostrar.setText(totalt);
 
 
+
+
+
+
                 if (totalidad<=1)
                 {
                     Toast.makeText(getApplicationContext(),"Estas en el lugar equivocado ",Toast.LENGTH_SHORT).show();

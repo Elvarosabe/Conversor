@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/geometapp" />
             <option value="$PROJECT_DIR$/misnotas" />
             <option value="$PROJECT_DIR$/mycalculator" />
+            <option value="$PROJECT_DIR$/resistenciapp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/geometapp/geometapp.iml" filepath="$PROJECT_DIR$/geometapp/geometapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/misnotas/misnotas.iml" filepath="$PROJECT_DIR$/misnotas/misnotas.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycalculator/mycalculator.iml" filepath="$PROJECT_DIR$/mycalculator/mycalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resistenciapp/resistenciapp.iml" filepath="$PROJECT_DIR$/resistenciapp/resistenciapp.iml" />
     </modules>
   </component>
 </project>
